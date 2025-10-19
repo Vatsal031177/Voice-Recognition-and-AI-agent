@@ -1,0 +1,32 @@
+{
+  "name": "beast",
+  "version": "1.0.0",
+  "description": "An open-source assistant capable of web penetration to retrieve accurate results and generate efficient, ready-to-run code.",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/cli.ts",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/beast.git"
+  },
+  "keywords": [
+    "assistant",
+    "open-source",
+    "web penetration",
+    "code generation"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "typescript": "^4.4.3"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.3",
+    "@types/jest": "^27.0.1",
+    "ts-node": "^10.4.0"
+  }
+}
